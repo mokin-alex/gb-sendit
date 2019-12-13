@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  background-image: url("img/bg1.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 288px;
+  color: #FFFFFF;
+  background-position: right bottom;
+  background-size: cover;
+  position: relative;
+}
+
+.menu__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 28px 20px;
+}
+
+.logo {
+  display: block;
+}
+
+.menu {
+  display: none;
+  list-style-type: none;
+}
+.menu__list {
+  padding: 8px 12px;
+}
+
+.menu-mini {
+  width: 40px;
+  display: block;
+}
+.menu-mini__item {
+  height: 4px;
+  background-color: #FFFFFF;
+  margin-bottom: 7px;
+}
+.menu-mini__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.header-text {
+  position: absolute;
+  top: 288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-text__h1 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 20px;
+}
+.header-text__h2 {
+  font-size: 24px;
+  color: #000000;
+  padding: 10px 17px;
+}
+
+.button {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #008DCD;
+  text-transform: uppercase;
+  border-radius: 30px;
+  width: 278px;
+  padding: 12px;
+  display: block;
+  text-align: center;
+  margin: 17px;
+}
+
+@media (min-width: 319.98px) {
+  .center {
+    padding: 0 calc(50% - 160px);
+  }
+
+  .header {
+    height: 288px;
+    background-position: 88% 100%;
+  }
+}
+@media (min-width: 767.98px) {
+  .center {
+    padding: 0 calc(50% - 360px);
+  }
+
+  .header {
+    height: 415px;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .menu-mini {
+    display: none;
+  }
+
+  .header-text {
+    width: 70%;
+    position: absolute;
+    top: 85px;
+  }
+  .header-text__h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+  }
+  .header-text__h2 {
+    font-size: 26px;
+    color: #FFFFFF;
+  }
+}
+@media (min-width: 1439.98px) {
+  .center {
+    padding: 0 calc(50% - 720px);
+  }
+
+  .header {
+    height: 525px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
