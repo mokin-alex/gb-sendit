@@ -14,7 +14,7 @@ body {
 }
 
 html {
-  font-size: 8px;
+  font-size: 10px;
 }
 
 .header {
@@ -86,6 +86,9 @@ html {
   color: #000000;
   text-transform: uppercase;
 }
+.text__h1_invert_const {
+  color: #FFFFFF;
+}
 
 .text__h2 {
   font-size: 24px;
@@ -105,8 +108,17 @@ html {
   font-weight: 400;
 }
 
+.text__txt_m {
+  font-size: 14px;
+  font-weight: 400;
+}
+.text__txt_m_invert {
+  color: #FFFFFF;
+}
+
 .button {
   font-size: 16px;
+  font-weight: 700;
   color: #FFFFFF;
   background-color: #008dcd;
   text-transform: uppercase;
@@ -117,6 +129,10 @@ html {
   align-items: center;
   justify-content: center;
   margin-top: 12px;
+}
+.button_color {
+  background-color: #ffcc00;
+  color: #363636;
 }
 
 .empty_block {
@@ -129,7 +145,7 @@ html {
   align-items: center;
   justify-content: center;
   background-color: #f7f7f7;
-  padding: 2.1rem;
+  padding: 17px;
 }
 .agregator__img {
   width: 100%;
@@ -158,6 +174,32 @@ html {
 .last-step__text {
   display: flex;
   align-items: center;
+}
+
+.recall {
+  background-color: #008dcd;
+  padding: 21px;
+}
+.recall__text {
+  padding: 17px 0;
+}
+.recall__tel {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #008dcd;
+  border-radius: 30px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  width: 258px;
+  padding: 12px 0;
+  padding-left: 20px;
+}
+.recall__tel::placeholder {
+  color: #FFFFFF;
+}
+.recall__consent {
+  margin: 17px 8px 0 8px;
+  background-color: #008dcd;
 }
 
 @media (min-width: 319.98px) {
@@ -219,6 +261,10 @@ html {
     font-size: 26px;
   }
 
+  .text__txt_m {
+    font-size: 16px;
+  }
+
   .text__txt {
     font-size: 14px;
   }
@@ -271,6 +317,22 @@ html {
     justify-content: center;
     width: 50vw;
   }
+
+  .recall {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 34px;
+  }
+  .recall__text {
+    width: 50vw;
+  }
+  .recall__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+  }
 }
 @media (min-width: 1439.98px) {
   .center {
@@ -313,6 +375,16 @@ html {
     height: 180px;
     padding: 0 140px;
   }
+  .last-step__button {
+    width: 40vw;
+  }
+
+  .recall {
+    padding: 0 140px;
+  }
+  .recall__button {
+    width: 40vw;
+  }
 
   .menu__link {
     font-size: 18px;
@@ -336,6 +408,10 @@ html {
   .text__txt {
     font-size: 16px;
     font-weight: 400;
+  }
+
+  .text__txt_m {
+    font-size: 24px;
   }
 }
 
