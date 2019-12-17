@@ -12,7 +12,6 @@ a
   text-decoration: none
 
 body
-  //font-family: "Lato", sans-serif
   font-family: 'PT Sans', sans-serif
 
 html
@@ -85,6 +84,7 @@ html
 
 .text__h2
   font-size: 24px
+  font-weight: 700
   color: #000000
   padding: 10px 0
 
@@ -111,18 +111,16 @@ html
   color: #FFFFFF
   background-color: $SiteColor
   text-transform: uppercase
-   border-radius: 30px
+  border-radius: 30px
   width: 278px
   padding: 12px 0
-  display: flex
-  align-items: center
-  justify-content: center
   margin-top: 12px
+  display: block
+  text-align: center
 
   &_color
     background-color: #ffcc00
     color: #363636
-
 
 .empty_block
   height: 226px
@@ -219,11 +217,13 @@ html
 
     &_invert
       color: #FFFFFF
+
   .text__h2
     font-size: 28px
 
     &_invert
       color: #FFFFFF
+
   .text__h3
     font-size: 26px
   .text__txt_m
@@ -242,11 +242,6 @@ html
 
     &__img
       width: 398px
-
-    &__wrap-text
-      display: flex
-      flex-direction: column
-      align-items: center
 
   .steps
     display: flex
@@ -310,7 +305,7 @@ html
     &__img
       width: 660px
 
-    &__wrap-text
+    &__text
       padding-left: 98px
 
   .steps
@@ -336,13 +331,11 @@ html
     font-weight: 900
   .text__h2
     font-size: 36px
-    font-weight: 700
   .text__h3
     font-size: 30px
-    font-weight: 600
+    font-weight: 700
   .text__txt
     font-size: 16px
-    font-weight: 400
   .text__txt_m
     font-size: 24px
 

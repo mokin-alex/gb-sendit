@@ -92,6 +92,7 @@ html {
 
 .text__h2 {
   font-size: 24px;
+  font-weight: 700;
   color: #000000;
   padding: 10px 0;
 }
@@ -122,13 +123,12 @@ html {
   color: #FFFFFF;
   background-color: #008dcd;
   text-transform: uppercase;
-  text-transform-border-radius: 30px;
+  border-radius: 30px;
   width: 278px;
   padding: 12px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 12px;
+  display: block;
+  text-align: center;
 }
 .button_color {
   background-color: #ffcc00;
@@ -282,11 +282,6 @@ html {
   .agregator__img {
     width: 398px;
   }
-  .agregator__wrap-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
   .steps {
     display: flex;
@@ -363,7 +358,7 @@ html {
   .agregator__img {
     width: 660px;
   }
-  .agregator__wrap-text {
+  .agregator__text {
     padding-left: 98px;
   }
 
@@ -397,17 +392,15 @@ html {
 
   .text__h2 {
     font-size: 36px;
-    font-weight: 700;
   }
 
   .text__h3 {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .text__txt {
     font-size: 16px;
-    font-weight: 400;
   }
 
   .text__txt_m {
